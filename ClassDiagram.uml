@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>ru.labrab.BMWSedan</OriginalElement>
+  <nodes>
+    <node x="165.49999999999997" y="141.0">ru.labrab.BMWSedan</node>
+    <node x="414.0" y="0.0">ru.labrab.AbstractSedan</node>
+    <node x="10.5" y="141.0">ru.labrab.BMWMiniwan</node>
+    <node x="294.5" y="119.0">ru.labrab.AbstractFactory</node>
+    <node x="556.5" y="141.0">ru.labrab.FordMinivan</node>
+    <node x="544.1750000000001" y="242.0">ru.labrab.FordFactory</node>
+    <node x="76.5" y="0.0">ru.labrab.AbstractMinivan</node>
+    <node x="691.5" y="141.0">ru.labrab.FordSedan</node>
+    <node x="322.0367647058823" y="454.0">ru.labrab.Main</node>
+    <node x="42.717647058823445" y="242.0">ru.labrab.BMWFactory</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="ru.labrab.BMWFactory" target="ru.labrab.AbstractMinivan">
+      <point x="-48.40000000000009" y="-81.0" />
+      <point x="115.31764705882335" y="217.0" />
+      <point x="143.99999999999997" y="217.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.labrab.FordFactory" target="ru.labrab.FordSedan">
+      <point x="44.39999999999998" y="-81.0" />
+      <point x="699.575" y="217.0" />
+      <point x="717.5" y="217.0" />
+      <point x="-26.0" y="14.5" />
+    </edge>
+    <edge source="ru.labrab.Main" target="ru.labrab.AbstractMinivan">
+      <point x="-67.59999999999997" y="-25.5" />
+      <point x="338.93676470588235" y="434.0" />
+      <point x="0.0" y="434.0" />
+      <point x="0.0" y="89.0" />
+      <point x="90.0" y="89.0" />
+      <point x="-54.0" y="14.5" />
+    </edge>
+    <edge source="ru.labrab.FordFactory" target="ru.labrab.FordMinivan">
+      <point x="0.0" y="-81.0" />
+      <point x="655.1750000000001" y="217.0" />
+      <point x="642.75" y="217.0" />
+      <point x="28.75" y="14.5" />
+    </edge>
+    <edge source="ru.labrab.FordMinivan" target="ru.labrab.AbstractMinivan">
+      <point x="0.0" y="-14.5" />
+      <point x="614.0" y="69.0" />
+      <point x="198.0" y="69.0" />
+      <point x="54.0" y="14.5" />
+    </edge>
+    <edge source="ru.labrab.BMWSedan" target="ru.labrab.AbstractSedan">
+      <point x="0.0" y="-14.5" />
+      <point x="219.99999999999997" y="99.0" />
+      <point x="451.2" y="99.0" />
+      <point x="-24.80000000000001" y="14.5" />
+    </edge>
+    <edge source="ru.labrab.AbstractFactory" target="ru.labrab.AbstractSedan">
+      <point x="60.5" y="-36.5" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.labrab.Main" target="ru.labrab.AbstractSedan">
+      <point x="67.59999999999997" y="-25.5" />
+      <point x="474.1367647058823" y="434.0" />
+      <point x="806.0" y="434.0" />
+      <point x="806.0" y="49.0" />
+      <point x="525.5999999999999" y="49.0" />
+      <point x="49.599999999999966" y="14.5" />
+    </edge>
+    <edge source="ru.labrab.Main" target="ru.labrab.BMWFactory">
+      <point x="-33.80000000000001" y="-25.5" />
+      <point x="372.7367647058823" y="424.0" />
+      <point x="163.71764705882345" y="424.0" />
+      <point x="0.0" y="81.0" />
+    </edge>
+    <edge source="ru.labrab.BMWFactory" target="ru.labrab.BMWMiniwan">
+      <point x="-96.80000000000007" y="-81.0" />
+      <point x="66.91764705882338" y="217.0" />
+      <point x="72.0" y="217.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.labrab.BMWFactory" target="ru.labrab.AbstractFactory">
+      <point x="96.79999999999995" y="-81.0" />
+      <point x="260.5176470588234" y="217.0" />
+      <point x="334.8333333333333" y="217.0" />
+      <point x="-80.66666666666669" y="36.5" />
+    </edge>
+    <edge source="ru.labrab.BMWMiniwan" target="ru.labrab.AbstractMinivan">
+      <point x="0.0" y="-14.5" />
+      <point x="72.0" y="99.0" />
+      <point x="117.0" y="99.0" />
+      <point x="-27.0" y="14.5" />
+    </edge>
+    <edge source="ru.labrab.Main" target="ru.labrab.FordFactory">
+      <point x="33.80000000000001" y="-25.5" />
+      <point x="440.33676470588233" y="424.0" />
+      <point x="655.1750000000001" y="424.0" />
+      <point x="0.0" y="81.0" />
+    </edge>
+    <edge source="ru.labrab.FordSedan" target="ru.labrab.AbstractSedan">
+      <point x="0.0" y="-14.5" />
+      <point x="743.5" y="59.0" />
+      <point x="500.79999999999995" y="59.0" />
+      <point x="24.799999999999955" y="14.5" />
+    </edge>
+    <edge source="ru.labrab.AbstractFactory" target="ru.labrab.AbstractMinivan">
+      <point x="-60.5" y="-36.5" />
+      <point x="355.0" y="79.0" />
+      <point x="171.0" y="79.0" />
+      <point x="27.0" y="14.5" />
+    </edge>
+    <edge source="ru.labrab.FordFactory" target="ru.labrab.AbstractFactory">
+      <point x="-88.80000000000004" y="-81.0" />
+      <point x="566.375" y="217.0" />
+      <point x="496.1666666666667" y="217.0" />
+      <point x="80.66666666666669" y="36.5" />
+    </edge>
+    <edge source="ru.labrab.Main" target="ru.labrab.AbstractFactory">
+      <point x="0.0" y="-25.5" />
+      <point x="406.5367647058823" y="434.0" />
+      <point x="415.5" y="434.0" />
+      <point x="0.0" y="36.5" />
+    </edge>
+    <edge source="ru.labrab.BMWFactory" target="ru.labrab.BMWSedan">
+      <point x="48.39999999999998" y="-81.0" />
+      <point x="212.11764705882342" y="217.0" />
+      <point x="219.99999999999997" y="217.0" />
+      <point x="0.0" y="14.5" />
+    </edge>
+    <edge source="ru.labrab.BMWFactory" target="ru.labrab.AbstractSedan">
+      <point x="0.0" y="-81.0" />
+      <point x="163.71764705882345" y="217.0" />
+      <point x="154.99999999999997" y="217.0" />
+      <point x="154.99999999999997" y="89.0" />
+      <point x="426.4" y="89.0" />
+      <point x="-49.60000000000002" y="14.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="342.5" y="225.5" />
+  <SelectedNodes>
+    <node>ru.labrab.BMWSedan</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Properties</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
