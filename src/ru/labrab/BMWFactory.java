@@ -1,22 +1,22 @@
 package ru.labrab;
 
-public class FordFactory implements AbstractFactory{
+public class BMWFactory implements AbstractFactory {
     String Sedans = "Выпущено седанов Ford: ";
     String Minivans = "Выпущено минивэнов Ford: ";
     static int countSedans = 0;
     static int countMinivans = 0;
 
     @Override
-    public FordSedan createSedan() {
+    public AbstractSedan createSedan() {
         countSedans++;
         System.out.println(Sedans+countSedans);
-        return new FordSedan();
+        return new BMWSedan();
     }
 
     @Override
-    public FordMinivan createMinivan() {
+    public AbstractMinivan createMinivan() {
         countMinivans++;
         System.out.println(Minivans+countMinivans);
-        return new FordMinivan();
+        return new BMWMiniwan();
     }
 }
